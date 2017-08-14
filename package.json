@@ -47,8 +47,9 @@
     "tap": "10.3.4"
   },
   "dependencies": {
-    "@unction/reducevalues": "*",
-    "@unction/fresh": "*",
-    "@unction/mergeleft": "*"
+    "@unction/reducevalues": "1.0.9",
+    "@unction/key": "1.0.1",
+    "@unction/fresh": "1.0.0",
+    "@unction/mergeleft": "1.0.4"
   }
 }
