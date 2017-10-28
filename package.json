@@ -52,8 +52,8 @@
   "dependencies": {
     "@unction/fresh": "3.6.0",
     "@unction/key": "4.6.0",
-    "@unction/mergeleft": "3.18.0",
-    "@unction/reducevalues": "2.21.0"
+    "@unction/mergeleft": "3.19.0",
+    "@unction/reducevalues": "2.22.0"
   },
   "nyc": {
     "require": [
