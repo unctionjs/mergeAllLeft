@@ -52,7 +52,7 @@
   "dependencies": {
     "@unction/fresh": "3.11.0",
     "@unction/key": "4.11.0",
-    "@unction/mergeleft": "3.36.0",
+    "@unction/mergeleft": "3.36.1",
     "@unction/reducevalues": "2.43.0"
   },
   "nyc": {
