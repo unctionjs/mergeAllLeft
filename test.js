@@ -3,7 +3,16 @@ import {test} from "tap"
 
 import mergeAllLeft from "./index"
 
-test(({same, end}) => {
+test("Array empty", ({same, end}) => {
+  same(
+    mergeAllLeft([]),
+    []
+  )
+
+  end()
+})
+
+test("Array", ({same, end}) => {
   same(
     mergeAllLeft([["0"], ["1"], ["2"]]),
     ["2", "1", "0"]
@@ -12,7 +21,7 @@ test(({same, end}) => {
   end()
 })
 
-test(({same, end}) => {
+test("Object", ({same, end}) => {
   same(
     mergeAllLeft([{aaa: "aaa"}, {bbb: "bbb"}, {ccc: "ccc"}]),
     {
@@ -25,7 +34,7 @@ test(({same, end}) => {
   end()
 })
 
-test(({same, end}) => {
+test("Object", ({same, end}) => {
   same(
     mergeAllLeft([{aaa: "aaa"}, {aaa: "bbb"}, {ccc: "ccc"}]),
     {

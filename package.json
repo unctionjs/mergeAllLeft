@@ -50,8 +50,8 @@
     "tap": "10.3.4"
   },
   "dependencies": {
+    "@unction/first": "1.8.0",
     "@unction/fresh": "3.11.0",
-    "@unction/key": "4.11.0",
     "@unction/mergeleft": "3.36.1",
     "@unction/reducevalues": "2.44.0"
   },
