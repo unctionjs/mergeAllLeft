@@ -1,6 +1,6 @@
 {
   "name": "@unction/mergeallleft",
-  "version": "2.45.1",
+  "version": "2.46.0",
   "description": "Merges a list of iterables (of the same type) into a single iterable",
   "keywords": [
     "unction",
