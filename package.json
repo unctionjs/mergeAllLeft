@@ -53,9 +53,9 @@
   },
   "dependencies": {
     "@unction/first": "2.0.0",
-    "@unction/fresh": "5.0.0",
-    "@unction/mergeleft": "4.0.0",
-    "@unction/reducevalues": "3.0.0"
+    "@unction/fresh": "6.0.0",
+    "@unction/mergeleft": "5.0.0",
+    "@unction/reducevalues": "4.0.0"
   },
   "nyc": {
     "require": [
