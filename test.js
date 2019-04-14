@@ -1,25 +1,25 @@
 /* eslint-disable flowtype/require-return-type */
-import {test} from "tap"
+import {test} from "tap";
 
-import mergeAllLeft from "./index"
+import mergeAllLeft from "./index";
 
 test("Array empty", ({same, end}) => {
   same(
     mergeAllLeft([]),
     []
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test("Array", ({same, end}) => {
   same(
     mergeAllLeft([["0"], ["1"], ["2"]]),
     ["2", "1", "0"]
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test("Object", ({same, end}) => {
   same(
@@ -29,10 +29,10 @@ test("Object", ({same, end}) => {
       bbb: "bbb",
       ccc: "ccc",
     }
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test("Object", ({same, end}) => {
   same(
@@ -41,7 +41,7 @@ test("Object", ({same, end}) => {
       aaa: "aaa",
       ccc: "ccc",
     }
-  )
+  );
 
-  end()
-})
+  end();
+});
