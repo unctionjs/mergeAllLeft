@@ -4,9 +4,9 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> Array<FunctorType> => FunctorType
+> Array<EnumerableType<A>> => EnumerableType<A>
 
-Merges a list of iterables (of the same type) into a single iterable.
+Merges a list of enumerables (of the same type) into a single enumerable.
 
 ``` javascript
 mergeAllLeft([["0"], ["1"], ["2"]]) // ["2", "1", "0"]
