@@ -55,8 +55,8 @@
   "dependencies": {
     "@unction/first": "3.1.1",
     "@unction/fresh": "8.6.0",
-    "@unction/mergeleft": "7.6.0",
-    "@unction/reducevalues": "8.6.0"
+    "@unction/mergeleft": "7.7.0",
+    "@unction/reducevalues": "8.7.0"
   },
   "files": [
     "index.ts",
