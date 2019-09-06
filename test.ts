@@ -1,5 +1,5 @@
 
-import mergeAllLeft from "./index.ts";
+import mergeAllLeft from "./index";
 
 test("Array empty", () => {
   expect(mergeAllLeft([])).toEqual([]);
