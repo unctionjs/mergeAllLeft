@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> Array<Array<A> | Set<A> | RecordType<unknown, A> | string> => Array<A> | Set<A> | RecordType<unknown, A> | string
+> Array<Array<A> | Set<A> | Record<string | number | symbol, B> | Map<B, A> | string> => Array<A> | Set<A> | Record<string | number | symbol, B> | Map<B, A> | string
 
 Merges a list of enumerables (of the same type) into a single enumerable.
 
