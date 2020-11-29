@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> Array<EnumerableType<A>> => EnumerableType<A>
+> Array<Array<A> | Set<A> | RecordType<unknown, A> | string> => Array<A> | Set<A> | RecordType<unknown, A> | string
 
 Merges a list of enumerables (of the same type) into a single enumerable.
 
